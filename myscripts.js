@@ -1,4 +1,4 @@
-function lieDetectorTest() {
+/*function lieDetectorTest() {
     var lies = 0;
     
     var stolenDiamond = { };
@@ -37,4 +37,15 @@ var numberOfLies = lieDetectorTest();
 console.log("You told " + numberOfLies + " lies!");
 if (numberOfLies >= 3) {
     console.log("Guilty as charged");
+}*/
+
+
+function Duck(sound) {
+    this.sound = sound;
+    this.quack = function() {console.log(this.sound);}
 }
+var toy = new Duck("quack quack");
+toy.quack();
+
+console.log(typeof toy);
+console.log(toy instanceof Duck);
