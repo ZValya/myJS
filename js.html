@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Battleship</title>
+        
+    
         <style>
             body {
                 background-color: black;
@@ -56,10 +58,15 @@
             .miss {
                 background:  url("miss.png") no-repeat center center;
             }
+            h1 {
+                color: white;
+            }
         </style>
     </head>
+    
     <body>
         <div id="board">
+            <div id="messageArea">да</div>
             <table>
                 <tr>
                     <td class="miss" id="00"></td><td id="01"></td><td id="02"></td><td id="03"></td><td id="04"></td><td id="05"></td><td id="06"></td> 
@@ -89,8 +96,9 @@
             </form>
             
         </div>
-        <h1>Moи скрипты</h1>
-        <script src="myscripts.js"></script>
+        <script src="battleship.js"></script>
+        
+        
     
     </body>
 
